@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Oswald:wght@200;300&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+*{
+margin:0;
+
+}
+.firstleft{
+float:left;
+/* margin:80px 80px; */
+border:#f9f9ff solid; 
+background-color:#f9f9ff;
+width:auto;
+
+}
+.firstleft .text{
+margin:80px 80px;
+
+
+    
+}
+
+.firstright{
+float:right;
+
+}
+
+.firstright a{
+margin:5px;
+font-family: 'Dosis', sans-serif;
+text-decoration:none;
+color:#ff0707;
+}
+.firstright a:hover{
+    color:black;
+    padding-right:5px;
+    font-size:20px;
+    }
+    
+
+    @media screen and (max-width:768px){
+    
+     .firstleft{
+background-color:#04091e;
+width:64  px;
+height:90px;
+     }   
+     .firstleft h1{
+font-size:40px;
+font-family:oswal;
+     }
+
+    .firstright{
+ position:absolute;
+top:-5%;
+left:5%;
+margin:auto;
+}
+
+.firstright a{
+color:white;
+margin-bottom:10px;
+}
+.first{
+ background-color: #f9f9ff;   
+}
+.first img{
+visibility: hidden;
+}
+
+
+.second{
+visibility: hidden;
+}
+.third{
+     visibility: hidden;
+     }
+     .fourth{
+          visibility: hidden;
+          }
+          .fifth{
+               visibility: hidden;
+               }
+.sixth{
+visibility:hidden;
+
+}
+.footer{
+visibility:hidden;
+
+}
+
+
+
+
+    
+    
+    }
